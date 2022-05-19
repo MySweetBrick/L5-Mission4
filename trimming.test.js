@@ -10,7 +10,7 @@ describe("string trim punctuation", function () {
         },
         {
             input: "hello%world",
-            output: "hello world",
+            output: "helloworld",
         },
         {
             input: "!hello world",
