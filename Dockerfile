@@ -8,7 +8,7 @@ COPY . .
 RUN npm run build
 
 # Stage 1 - Serve Frontend Assets
-FROM nginx
+FROM nginx:stable
 
 WORKDIR /etc/nginx
 ADD nginx.conf /etc/nginx/nginx.conf
